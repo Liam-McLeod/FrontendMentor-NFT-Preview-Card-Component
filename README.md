@@ -17,8 +17,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-0isSOH2huZ)
-- [Live Site URL](https://liam-mcleod.github.io/FrontendMentor-Order-Summary-Component/)
+- [Solution URL](https://www.frontendmentor.io/solutions/nft-preview-card-component-jdflixwjju)
+- [Live Site URL](https://liam-mcleod.github.io/FrontendMentor-NFT-Preview-Card-Component/)
 
 ## Author
 - Frontend Mentor - [@Liam-McLeod](https://www.frontendmentor.io/profile/Liam-McLeod)

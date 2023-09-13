@@ -1,0 +1,114 @@
+:root {
+
+    /* Primary */
+
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    /* Neutral */
+    --very-dark-blue-bg: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+
+    /* Fonts */
+
+    --font-family-default: 'Outfit', sans-serif;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-semibold: 600;
+
+}
+
+/* RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* MAIN */
+
+body {
+    font-family: var(--font-family-default);
+    font-size: 18px;
+    font-weight: var(--fw-regular);
+    background-color: var(--very-dark-blue-bg);
+    color: white;
+    height:100vh;
+    display: grid;
+    place-items: center;
+}
+
+.flex-group {
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.nft-card {
+    background-color: var(--very-dark-blue-card);
+    margin: 3rem 2rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    max-width: 20rem;
+
+    display: grid;
+    gap: 1.5rem;
+}
+
+.nft-picture {
+    border-radius: 0.5rem
+}
+
+.nft-content {
+    display: grid;
+    gap: 1rem;
+    color: var(--soft-blue)
+}
+
+.nft-title {
+    font-weight: var(--fw-semibold);
+    color:white;
+}
+
+.nft-desc {
+    font-size: 0.9rem;
+}
+
+.nft-numbers {
+    display: flex;
+    gap: 6rem;
+    font-size: 0.8rem;
+}
+
+.nft-price {
+    color: var(--cyan);
+}
+
+.nft-signature {
+    font-size: 0.8rem;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 0.8rem;
+}
+
+.nft-avatar {
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 100rem;
+}
+
+.nft-creator span {
+    color: white;
+}
+
